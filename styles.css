@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150%;
+    border-radius: 50%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.contact-section {
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+}
+
+.contact-button {
+    background-color: wheat;
+    color: #007bff;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+    color: blue;
+    border-color: #0056b3;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
